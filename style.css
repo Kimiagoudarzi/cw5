@@ -1,0 +1,101 @@
+@font-face {
+    font-family:'vazir-light-FD';
+    src: url(./fonts/Vazir-Light-FD.woff);
+} 
+.wrapper{
+    font-family: 'vazir-light-FD';
+    background-image: url(./images/gradient.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 450px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 78px;
+    padding-right: 30px;
+
+}
+
+.form_container{
+    font-family: 'vazir-light-FD';
+    width: 700px;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 5px 8px 18px 0px rgba(0,0,0,0.39);
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 14px;
+    
+
+}
+.form_singup{
+    float: left;
+    padding-left: 60px;
+}
+
+.form_singin{
+    float: right;
+    padding-right: 60px;
+}
+input{
+    color: #aaa;
+    font-family: 'vazir-light-FD';
+    font-size: 17px;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 24px;
+    width: 240px;
+    height: 36px;
+    box-sizing: border-box;
+    border: 1px solid #dbdcdc;
+    padding-right: 40px;
+    outline: none; 
+    background-color: #f3f3f3;
+
+}
+.singup_submit{
+    width: 235px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(224, 73, 93);
+    border-color: transparent ;
+    outline: none;
+    box-shadow: 5px 5px 15px 5px rgba(77, 77, 77, 0.12);
+    padding-left: 45px;
+}
+.singin_enter{
+    width: 235px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(71, 209, 112);
+    border-color: rgb(6, 248, 167);
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 15px 5px rgba(77, 77, 77, 0.12);
+    padding-left: 50px;
+}
+
+.username{
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+
+.input-icons i {
+    position:absolute;
+    right: 8px;
+    top: 4px 8px;
+    padding: 9px 8px;
+}
+  
+.input-icons {
+    margin-bottom: 10px;
+    position: relative;
+}
+::placeholder{
+    color: #b2b4b3;}
